@@ -1,9 +1,8 @@
 ﻿using System;
 using LearningClasses;
+using static Shape;
 
-
-
-    class Program
+class Program
     {
         // static void Main(string[] args)
         // {
@@ -26,6 +25,13 @@ using LearningClasses;
             // person.Age = 22;
 
             var x = Calculator.Sum<int>(25 , 30);
+
+
+
+            Rectangle rectangle = new Rectangle();
+            rectangle.Length = 23.6;
+            rectangle.Breadth = 6.32;
+            var result = rectangle.GetArea();
         }
     }
 
