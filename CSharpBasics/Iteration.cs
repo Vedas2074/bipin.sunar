@@ -5,12 +5,12 @@ using System;
 
 class IterationStatement
 {
-    static void Main()
-    {
-        IterationStatement iterationStatement = new IterationStatement();
-        iterationStatement.LearnForLoops();
+    // static void Main()
+    // {
+    //     IterationStatement iterationStatement = new IterationStatement();
+    //     iterationStatement.LearnForLoops();
 
-    }
+    // }
     void LearnForLoops()
     {
         for (int i = 0; i < 10; i++)

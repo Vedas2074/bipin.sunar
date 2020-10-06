@@ -1,7 +1,8 @@
 ﻿using System;
+using LearningClasses;
 
-namespace CSharpBasics
-{
+
+
     class Program
     {
         // static void Main(string[] args)
@@ -17,5 +18,14 @@ namespace CSharpBasics
         //     SelectionStatement selectionstatement = new SelectionStatement();
         //     selectionstatement.LearnIfElse();
         // }
+
+        static void Main()
+        {
+            // var person = new Person("Bipin", "Dang", 22);
+            // person.
+            // person.Age = 22;
+
+            var x = Calculator.Sum<int>(25 , 30);
+        }
     }
-}
+
