@@ -32,6 +32,13 @@ class Program
             rectangle.Length = 23.6;
             rectangle.Breadth = 6.32;
             var result = rectangle.GetArea();
+
+        //Obkect Initializer
+            Rectangle r = new Rectangle()
+            {
+                Length = 22.5 , 
+                Breadth = 11.3 
+            };
         }
     }
 
